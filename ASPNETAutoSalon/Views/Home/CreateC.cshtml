@@ -1,0 +1,15 @@
+﻿@model EFAutoSalon.Car
+@{ ViewBag.Title = "Добавление Машины"; }
+<form asp-action="CreateC" asp-controller="home">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Марка</label>
+        <input type="text" asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="YearOfRelease" class="control-label">Год выпуска</label>
+        <input type="text" asp-for="YearOfRelease" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Добавить" class="btn btn-default" />
+    </div>
+</form>

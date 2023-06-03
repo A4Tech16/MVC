@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNETAutoSalon", "ASPNETAutoSalon\ASPNETAutoSalon.csproj", "{D1CB2A2C-9B8F-4CD8-B843-ABCA3EA3D1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFAutoSalon", "EFAutoSalon\EFAutoSalon.csproj", "{12C54D42-3966-4B39-A585-3F6FA93241CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1CB2A2C-9B8F-4CD8-B843-ABCA3EA3D1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CB2A2C-9B8F-4CD8-B843-ABCA3EA3D1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CB2A2C-9B8F-4CD8-B843-ABCA3EA3D1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CB2A2C-9B8F-4CD8-B843-ABCA3EA3D1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C54D42-3966-4B39-A585-3F6FA93241CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C54D42-3966-4B39-A585-3F6FA93241CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C54D42-3966-4B39-A585-3F6FA93241CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C54D42-3966-4B39-A585-3F6FA93241CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ECEA042-B68F-4C4B-9F08-73B4FA4D4067}
+	EndGlobalSection
+EndGlobal

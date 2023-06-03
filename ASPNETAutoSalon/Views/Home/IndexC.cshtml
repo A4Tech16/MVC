@@ -1,0 +1,18 @@
+﻿@model IEnumerable<EFAutoSalon.Car>
+    @{ ViewBag.Title = "Машины"; }
+    <a asp-action="Create">Добавить покупателя</a>
+    <p></p>
+    <a asp-action="CreateC">Добавить автомобиль</a>
+    <p></p>
+    <a asp-action="Index">Сменить таблицу</a>
+    <p></p>
+    <h1>Машины</h1>
+    <table class="table">
+        <tr><td>Название</td><td>Год выпуска</td></tr>
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>@item.Name</td>
+    <td>@item.YearOfRelease</td>
+</tr>}
+    </table>
